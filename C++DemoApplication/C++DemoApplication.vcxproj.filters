@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="QML">
+      <UniqueIdentifier>{bd6d1076-e007-4c42-a165-e2a5f282a695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QML\Pages">
+      <UniqueIdentifier>{34a1ce27-db82-4071-8776-d8822f71bd0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QML\+Material">
+      <UniqueIdentifier>{39d01cf3-5dd7-40cb-98e0-455737861578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{462d4a2e-5713-4931-bff6-9fe69040508d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\icons">
+      <UniqueIdentifier>{6c657118-5736-4222-b929-9451e5d95e25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\images">
+      <UniqueIdentifier>{413d0127-3430-4895-a828-91b76830f4aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\icons\gallery">
+      <UniqueIdentifier>{f9eb72b6-04ea-4fe1-a67a-a9dc4b5fb2a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <QtRcc Include="qml.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pages\BusyIndicatorPage.qml">
+      <Filter>QML\Pages</Filter>
+    </None>
+    <None Include="pages\ButtonPage.qml">
+      <Filter>QML\Pages</Filter>
+    </None>
+    <None Include="pages\CheckBoxPage.qml">
+      <Filter>QML\Pages</Filter>
+    </None>
+    <None Include="pages\ComboBoxPage.qml">
+      <Filter>QML\Pages</Filter>
+    </None>
+    <None Include="pages\DelayButtonPage.qml">
+      <Filter>QML\Pages</Filter>
+    </None>
+    <None Include="pages\DelegatePage.qml">
+      <Filter>QML\Pages</Filter>
+    </None>
+    <None Include="pages\DialogPage.qml">
+      <Filter>QML\Pages</Filter>
+    </None>
+    <None Include="pages\DialPage.qml">
+      <Filter>QML\Pages</Filter>
+    </None>
+    <None Include="pages\FramePage.qml">
+      <Filter>QML\Pages</Filter>
+    </None>
+    <None Include="pages\GroupBoxPage.qml">
+      <Filter>QML\Pages</Filter>
+    </None>
+    <None Include="pages\PageIndicatorPage.qml">
+      <Filter>QML\Pages</Filter>
+    </None>
+    <None Include="pages\ProgressBarPage.qml">
+      <Filter>QML\Pages</Filter>
+    </None>
+    <None Include="pages\RadioButtonPage.qml">
+      <Filter>QML\Pages</Filter>
+    </None>
+    <None Include="pages\RangeSliderPage.qml">
+      <Filter>QML\Pages</Filter>
+    </None>
+    <None Include="pages\ScrollablePage.qml">
+      <Filter>QML\Pages</Filter>
+    </None>
+    <None Include="pages\ScrollBarPage.qml">
+      <Filter>QML\Pages</Filter>
+    </None>
+    <None Include="pages\ScrollIndicatorPage.qml">
+      <Filter>QML\Pages</Filter>
+    </None>
+    <None Include="pages\SliderPage.qml">
+      <Filter>QML\Pages</Filter>
+    </None>
+    <None Include="pages\SpinBoxPage.qml">
+      <Filter>QML\Pages</Filter>
+    </None>
+    <None Include="pages\StackViewPage.qml">
+      <Filter>QML\Pages</Filter>
+    </None>
+    <None Include="pages\SwipeViewPage.qml">
+      <Filter>QML\Pages</Filter>
+    </None>
+    <None Include="pages\SwitchPage.qml">
+      <Filter>QML\Pages</Filter>
+    </None>
+    <None Include="pages\TabBarPage.qml">
+      <Filter>QML\Pages</Filter>
+    </None>
+    <None Include="pages\TextAreaPage.qml">
+      <Filter>QML\Pages</Filter>
+    </None>
+    <None Include="pages\TextFieldPage.qml">
+      <Filter>QML\Pages</Filter>
+    </None>
+    <None Include="pages\ToolTipPage.qml">
+      <Filter>QML\Pages</Filter>
+    </None>
+    <None Include="pages\TumblerPage.qml">
+      <Filter>QML\Pages</Filter>
+    </None>
+    <None Include="main.qml">
+      <Filter>QML</Filter>
+    </None>
+    <None Include="ToolBar.qml">
+      <Filter>QML</Filter>
+    </None>
+    <None Include="+Material\ToolBar.qml">
+      <Filter>QML\+Material</Filter>
+    </None>
+    <None Include="icons\gallery\index.theme">
+      <Filter>Assets\icons\gallery</Filter>
+    </None>
+    <None Include="qtquickcontrols2.conf">
+      <Filter>QML</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icons\gallery\20x20\back.png">
+      <Filter>Assets\icons\gallery</Filter>
+    </Image>
+    <Image Include="icons\gallery\20x20\drawer.png">
+      <Filter>Assets\icons\gallery</Filter>
+    </Image>
+    <Image Include="icons\gallery\20x20\menu.png">
+      <Filter>Assets\icons\gallery</Filter>
+    </Image>
+    <Image Include="images\arrow.png">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="images\arrow%402x.png">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="images\arrow%403x.png">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="images\arrow%404x.png">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="images\arrows.png">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="images\arrows%402x.png">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="images\arrows%403x.png">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="images\arrows%404x.png">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="images\qt-logo.png">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="images\qt-logo%402x.png">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="images\qt-logo%403x.png">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="images\qt-logo%404x.png">
+      <Filter>Assets\images</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
