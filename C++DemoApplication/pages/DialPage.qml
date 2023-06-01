@@ -22,6 +22,16 @@ ScrollablePage {
         Dial {
             value: 0.5
             anchors.horizontalCenter: parent.horizontalCenter
+
+            readonly property int minTemperature: 10
+            readonly property int maxTemperature: 35
+            readonly property int temperature: minTemperature+Math.round(value*(maxTemperature-minTemperature));
+
+            Text {
+                anchors.centerIn: parent
+                text: `${parent.temperature} C`
+                font.pointSize: 20
+            }
         }
     }
 }
