@@ -108,7 +108,7 @@
     <None Include="pages\DelayButtonPage.qml" />
     <None Include="pages\DelegatePage.qml" />
     <None Include="pages\DialogPage.qml" />
-    <None Include="pages\DialPage.qml" />
+    <None Include="pages\TemperatureControlPage.qml" />
     <None Include="pages\FramePage.qml" />
     <None Include="pages\GroupBoxPage.qml" />
     <None Include="pages\PageIndicatorPage.qml" />

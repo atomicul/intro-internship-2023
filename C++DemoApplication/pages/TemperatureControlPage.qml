@@ -15,11 +15,11 @@ ScrollablePage {
             width: parent.width
             wrapMode: Label.Wrap
             horizontalAlignment: Qt.AlignHCenter
-            text: qsTr("The Dial is similar to a traditional dial knob that is found on devices such as "
-                + "stereos or industrial equipment. It allows the user to specify a value within a range.")
+            text: qsTr("OMG temperature control so cool :O")
         }
 
         Dial {
+            id: dial
             value: 0.5
             anchors.horizontalCenter: parent.horizontalCenter
 
@@ -31,6 +31,36 @@ ScrollablePage {
                 anchors.centerIn: parent
                 text: `${parent.temperature} C`
                 font.pointSize: 20
+            }
+        }
+
+        Row {
+            id: buttonSection
+            width: parent.width
+            height: 60
+
+            Rectangle {
+                id: section1
+                height: parent.height
+                width: parent.width / 2
+
+                Button {
+                    anchors.centerIn: parent
+                    text: "Cold"
+                    onClicked: dial.value = 0.0
+                }
+            }
+
+             Rectangle {
+                id: section2
+                height: parent.height
+                width: parent.width / 2
+
+                Button {
+                    anchors.centerIn: parent
+                    text: "Warm"
+                    onClicked: dial.value = 1.0
+                }
             }
         }
     }

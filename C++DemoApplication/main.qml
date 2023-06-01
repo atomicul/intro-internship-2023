@@ -145,7 +145,7 @@ ApplicationWindow {
                 ListElement { title: qsTr("CheckBox"); source: "qrc:/pages/CheckBoxPage.qml" }
                 ListElement { title: qsTr("ComboBox"); source: "qrc:/pages/ComboBoxPage.qml" }
                 ListElement { title: qsTr("DelayButton"); source: "qrc:/pages/DelayButtonPage.qml" }
-                ListElement { title: qsTr("Dial"); source: "qrc:/pages/DialPage.qml" }
+                ListElement { title: qsTr("TemperatureControl"); source: "qrc:/pages/TemperatureControlPage.qml" }
                 ListElement { title: qsTr("Dialog"); source: "qrc:/pages/DialogPage.qml" }
                 ListElement { title: qsTr("Delegates"); source: "qrc:/pages/DelegatePage.qml" }
                 ListElement { title: qsTr("Frame"); source: "qrc:/pages/FramePage.qml" }
