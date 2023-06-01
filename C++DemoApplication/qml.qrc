@@ -20,7 +20,6 @@
         <file>images/qt-logo@4x.png</file>
         <file>pages/BusyIndicatorPage.qml</file>
         <file>pages/ButtonPage.qml</file>
-        <file>pages/CheckBoxPage.qml</file>
         <file>pages/ComboBoxPage.qml</file>
         <file>pages/DelayButtonPage.qml</file>
         <file>pages/DelegatePage.qml</file>
@@ -59,5 +58,6 @@
         <file>icons/gallery/20x20@4/menu.png</file>
         <file>icons/gallery/index.theme</file>
         <file>pages/TemperatureControlPage.qml</file>
+        <file>pages/TodosPage.qml</file>
     </qresource>
 </RCC>

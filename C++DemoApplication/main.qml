@@ -142,7 +142,7 @@ ApplicationWindow {
             model: ListModel {
                 ListElement { title: qsTr("BusyIndicator"); source: "qrc:/pages/BusyIndicatorPage.qml" }
                 ListElement { title: qsTr("Button"); source: "qrc:/pages/ButtonPage.qml" }
-                ListElement { title: qsTr("CheckBox"); source: "qrc:/pages/CheckBoxPage.qml" }
+                ListElement { title: qsTr("TodoList"); source: "qrc:/pages/TodosPage.qml" }
                 ListElement { title: qsTr("ComboBox"); source: "qrc:/pages/ComboBoxPage.qml" }
                 ListElement { title: qsTr("DelayButton"); source: "qrc:/pages/DelayButtonPage.qml" }
                 ListElement { title: qsTr("TemperatureControl"); source: "qrc:/pages/TemperatureControlPage.qml" }
