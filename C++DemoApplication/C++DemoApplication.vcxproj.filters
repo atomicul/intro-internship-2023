@@ -34,23 +34,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="debug\moc_predefs.h.cbt">
-      <Filter>Generated Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="release\moc_predefs.h.cbt">
-      <Filter>Generated Files</Filter>
-    </CustomBuild>
-    
-    
-  </ItemGroup>
-  <ItemGroup>
     <None Include="pages\BusyIndicatorPage.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="pages\ButtonPage.qml">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="pages\CheckBoxPage.qml">
+    <None Include="pages\TodosPage.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="pages\ComboBoxPage.qml">
@@ -60,9 +50,6 @@
       <Filter>Resource Files</Filter>
     </None>
     <None Include="pages\DelegatePage.qml">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="pages\DialPage.qml">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="pages\DialogPage.qml">
@@ -131,98 +118,33 @@
     <None Include="pages\TumblerPage.qml">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="images\arrow.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="images\arrow@2x.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="images\arrow@3x.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="images\arrow@4x.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="images\arrows.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="images\arrows@2x.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="images\arrows@3x.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="images\arrows@4x.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="icons\gallery\20x20@2\back.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="icons\gallery\20x20@3\back.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="icons\gallery\20x20@4\back.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="icons\gallery\20x20\back.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="icons\gallery\20x20@2\drawer.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="icons\gallery\20x20@3\drawer.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="icons\gallery\20x20@4\drawer.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="icons\gallery\20x20\drawer.png">
-      <Filter>Resource Files</Filter>
-    </None>
     <None Include="icons\gallery\index.theme">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="main.qml">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="icons\gallery\20x20@2\menu.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="icons\gallery\20x20@3\menu.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="icons\gallery\20x20@4\menu.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="icons\gallery\20x20\menu.png">
-      <Filter>Resource Files</Filter>
-    </None>
     <QtRcc Include="qml.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>
-    <None Include="images\qt-logo.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="images\qt-logo@2x.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="images\qt-logo@3x.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="images\qt-logo@4x.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="doc\images\qtquickcontrols-gallery-drawer.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="doc\images\qtquickcontrols-gallery-menu.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="doc\images\qtquickcontrols-gallery-welcome.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="doc\src\qtquickcontrols-gallery.qdoc">
-      <Filter>Resource Files</Filter>
-    </None>
+    <None Include="pages\TemperatureControlPage.qml" />
+    <None Include="qtquickcontrols2.conf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icons\gallery\20x20\back.png" />
+    <Image Include="icons\gallery\20x20\drawer.png" />
+    <Image Include="icons\gallery\20x20\menu.png" />
+    <Image Include="images\arrow%402x.png" />
+    <Image Include="images\arrow%403x.png" />
+    <Image Include="images\arrow%404x.png" />
+    <Image Include="images\arrow.png" />
+    <Image Include="images\arrows%402x.png" />
+    <Image Include="images\arrows%403x.png" />
+    <Image Include="images\arrows%404x.png" />
+    <Image Include="images\arrows.png" />
+    <Image Include="images\qt-logo%402x.png" />
+    <Image Include="images\qt-logo%403x.png" />
+    <Image Include="images\qt-logo%404x.png" />
+    <Image Include="images\qt-logo.png" />
   </ItemGroup>
 </Project>

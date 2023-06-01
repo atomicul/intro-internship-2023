@@ -103,7 +103,7 @@
     <None Include="icons\gallery\index.theme" />
     <None Include="pages\BusyIndicatorPage.qml" />
     <None Include="pages\ButtonPage.qml" />
-    <None Include="pages\CheckBoxPage.qml" />
+    <None Include="pages\TodosPage.qml" />
     <None Include="pages\ComboBoxPage.qml" />
     <None Include="pages\DelayButtonPage.qml" />
     <None Include="pages\DelegatePage.qml" />
